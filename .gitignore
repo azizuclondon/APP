@@ -1,0 +1,31 @@
+﻿# --- Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/out/
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+
+# --- Backend (Python)
+backend/.venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage*
+backend/htmlcov/
+
+# --- Env & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# --- Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs
+*.log
