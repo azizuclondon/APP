@@ -1,19 +1,35 @@
-﻿import psycopg
-from psycopg.rows import dict_row
+﻿# backend/app/db_check.py
+import os
+from pathlib import Path
 
-# Simple DB check: connect, read version, confirm pgvector exists
+from dotenv import load_dotenv
+import psycopg2
+
+
+# Load .env locally; in Render, DATABASE_URL comes from env
+DOTENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+if DOTENV_PATH.exists():
+    load_dotenv(DOTENV_PATH)
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise RuntimeError(f"DATABASE_URL not found. Expected it in {DOTENV_PATH} or environment")
+
+
 def check_db():
-    try:
-        conn = psycopg.connect(
-            "postgresql://pmapp:pmapp@127.0.0.1:5432/pmapp",
-            connect_timeout=2
-        )
-        with conn:
-            with conn.cursor(row_factory=dict_row) as cur:
-                cur.execute("select version() as version")
-                version = cur.fetchone()["version"]
-                cur.execute("select extname from pg_extension where extname = 'vector'")
-                has_vector = cur.fetchone() is not None
-        return {"ok": True, "version": version, "pgvector": has_vector}
-    except Exception as e:
-        return {"ok": False, "error": str(e)}
+    """
+    Connects to Postgres and returns:
+      - ok: True/False
+      - version: full version string from server
+      - pgvector: whether the 'vector' extension is installed
+    """
+    # psycopg2-binary uses the same DSN string format you have locally/staging
+    with psycopg2.connect(DATABASE_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT version()")
+            version = cur.fetchone()[0]
+
+            cur.execute("SELECT EXISTS (SELECT 1 FROM pg_extension WHERE extname='vector')")
+            (has_vector,) = cur.fetchone()
+
+    return {"ok": True, "version": version, "pgvector": bool(has_vector)}
