@@ -1,5 +1,6 @@
 ﻿// src/app/products/page.tsx
-import { headers } from "next/headers";
+
+export const dynamic = "force-dynamic"; // ensure this runs at request time on Vercel
 
 type Product = {
   id: number;
@@ -8,15 +9,19 @@ type Product = {
 };
 
 function getBaseUrl() {
-  const h = headers();
-  const proto = h.get("x-forwarded-proto") ?? "http";
-  const host = h.get("x-forwarded-host") ?? h.get("host");
-  // If we have host/proto (Vercel or prod), use them; else fall back to local dev
-  if (host) return `${proto}://${host}`;
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3006";
+  // Prefer an explicit site URL if you add one later
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  // Vercel provides VERCEL_URL without protocol (e.g., app-xxxx.vercel.app)
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  // Local dev fallback
+  return "http://localhost:3006";
 }
 
-// Call our own Next.js API route (which proxies to FastAPI)
+// Call our own Next.js API route (which proxies to FastAPI on Render)
 async function getProducts(): Promise<Product[]> {
   const base = getBaseUrl();
   const res = await fetch(`${base}/api/products`, { cache: "no-store" });
