@@ -5,18 +5,25 @@ type Product = {
   model: string;
 };
 
-const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL ?? "http://127.0.0.1:8000";
-
+// Call the local Next.js API route (which proxies to FastAPI)
 async function getProducts(): Promise<Product[]> {
-  const res = await fetch(`${BACKEND}/products`, { cache: "no-store" });
+  const res = await fetch("/api/products", { cache: "no-store" });
   if (!res.ok) {
-    throw new Error(`Failed to fetch products: ${res.status} ${res.statusText}`);
+    const body = await res.text().catch(() => "");
+    throw new Error(`/api/products failed: ${res.status} ${res.statusText} ${body}`);
   }
   return res.json();
 }
 
 export default async function ProductsPage() {
-  const products = await getProducts();
+  let products: Product[] = [];
+  let error: string | null = null;
+
+  try {
+    products = await getProducts();
+  } catch (e: unknown) {
+    error = e instanceof Error ? e.message : "Unknown error fetching products.";
+  }
 
   return (
     <main className="p-8 space-y-6">
@@ -30,7 +37,9 @@ export default async function ProductsPage() {
         </a>
       </div>
 
-      {products.length === 0 ? (
+      {error ? (
+        <p className="text-sm text-red-600">Error: {error}</p>
+      ) : products.length === 0 ? (
         <p className="text-sm opacity-70">No products yet.</p>
       ) : (
         <div className="overflow-x-auto border rounded-xl">
@@ -56,7 +65,7 @@ export default async function ProductsPage() {
       )}
 
       <p className="text-xs opacity-60">
-        Fetched from <code>{BACKEND}/products</code> (SSR).
+        Fetched via SSR from <code>/api/products</code> (proxy to your Render backend).
       </p>
     </main>
   );
