@@ -17,7 +17,6 @@ export default function NewProductPage() {
     setBusy(true);
 
     try {
-      // Same-origin call to your Next.js API proxy
       const res = await fetch("/api/products", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -25,16 +24,18 @@ export default function NewProductPage() {
       });
 
       if (res.status === 201) {
-        // success → go back to list
         router.push("/products");
         router.refresh();
         return;
       }
 
-      const data = await res.json().catch(() => ({}));
+      const data = (await res.json().catch(() => ({}))) as {
+        detail?: string;
+      };
       setError(data?.detail ?? `Failed: ${res.status} ${res.statusText}`);
-    } catch (err: any) {
-      setError(err?.message ?? "Network error");
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Network error";
+      setError(message);
     } finally {
       setBusy(false);
     }

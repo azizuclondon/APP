@@ -1,87 +1,62 @@
-﻿// src/app/products/new/page.tsx
-"use client";
+﻿// src/app/products/page.tsx
+type Product = {
+  id: number;
+  brand: string;
+  model: string;
+};
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL ?? "http://127.0.0.1:8000";
 
-export default function NewProductPage() {
-  const router = useRouter();
-  const [brand, setBrand] = useState("");
-  const [model, setModel] = useState("");
-  const [error, setError] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setError(null);
-    setBusy(true);
-
-    try {
-      // Same-origin call to your Next.js API proxy
-      const res = await fetch("/api/products", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ brand, model }),
-      });
-
-      if (res.status === 201) {
-        // success → go back to list
-        router.push("/products");
-        router.refresh();
-        return;
-      }
-
-      const data = await res.json().catch(() => ({}));
-      setError(data?.detail ?? `Failed: ${res.status} ${res.statusText}`);
-    } catch (err: any) {
-      setError(err?.message ?? "Network error");
-    } finally {
-      setBusy(false);
-    }
+async function getProducts(): Promise<Product[]> {
+  const res = await fetch(`${BACKEND}/products`, { cache: "no-store" });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch products: ${res.status} ${res.statusText}`);
   }
+  return res.json();
+}
+
+export default async function ProductsPage() {
+  const products = await getProducts();
 
   return (
-    <main className="p-8 max-w-md space-y-6">
-      <h1 className="text-2xl font-semibold">New Product</h1>
-
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label className="block text-sm mb-1">Brand</label>
-          <input
-            className="w-full border rounded-lg p-2"
-            value={brand}
-            onChange={(e) => setBrand(e.target.value)}
-            placeholder="e.g., DJI"
-            required
-            maxLength={255}
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm mb-1">Model</label>
-          <input
-            className="w-full border rounded-lg p-2"
-            value={model}
-            onChange={(e) => setModel(e.target.value)}
-            placeholder="e.g., Mini 4 Pro"
-            required
-            maxLength={255}
-          />
-        </div>
-
-        <button
-          type="submit"
-          disabled={busy}
-          className="px-4 py-2 rounded-xl border shadow-sm"
+    <main className="p-8 space-y-6">
+      <div className="flex items-center justify-between">
+        <h1 className="text-2xl font-semibold">Products</h1>
+        <a
+          href="/products/new"
+          className="px-3 py-2 rounded-xl border shadow-sm text-sm"
         >
-          {busy ? "Saving..." : "Create"}
-        </button>
+          + New
+        </a>
+      </div>
 
-        {error && <p className="text-sm text-red-600 mt-2">{error}</p>}
-      </form>
+      {products.length === 0 ? (
+        <p className="text-sm opacity-70">No products yet.</p>
+      ) : (
+        <div className="overflow-x-auto border rounded-xl">
+          <table className="min-w-full text-sm">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="text-left p-3">ID</th>
+                <th className="text-left p-3">Brand</th>
+                <th className="text-left p-3">Model</th>
+              </tr>
+            </thead>
+            <tbody>
+              {products.map((p) => (
+                <tr key={p.id} className="border-t">
+                  <td className="p-3">{p.id}</td>
+                  <td className="p-3">{p.brand}</td>
+                  <td className="p-3">{p.model}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
 
       <p className="text-xs opacity-60">
-        Submits to <code>POST /api/products</code> → proxies to FastAPI.
+        Fetched from <code>{BACKEND}/products</code> (SSR).
       </p>
     </main>
   );
