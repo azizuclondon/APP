@@ -1,6 +1,5 @@
 ﻿// src/app/products/page.tsx
-
-export const dynamic = "force-dynamic"; // ensure this runs at request time on Vercel
+export const dynamic = "force-dynamic"; // run at request-time on Vercel
 
 type Product = {
   id: number;
@@ -8,26 +7,21 @@ type Product = {
   model: string;
 };
 
-function getBaseUrl() {
-  // Prefer an explicit site URL if you add one later
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL;
-  }
-  // Vercel provides VERCEL_URL without protocol (e.g., app-xxxx.vercel.app)
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  // Local dev fallback
-  return "http://localhost:3006";
-}
+// Use the Render backend URL directly (absolute)
+const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL ?? "";
 
-// Call our own Next.js API route (which proxies to FastAPI on Render)
 async function getProducts(): Promise<Product[]> {
-  const base = getBaseUrl();
-  const res = await fetch(`${base}/api/products`, { cache: "no-store" });
+  if (!BACKEND) {
+    throw new Error(
+      "NEXT_PUBLIC_BACKEND_URL is not set on the server (Vercel)."
+    );
+  }
+  const res = await fetch(`${BACKEND}/products`, { cache: "no-store" });
   if (!res.ok) {
     const body = await res.text().catch(() => "");
-    throw new Error(`/api/products failed: ${res.status} ${res.statusText} ${body}`);
+    throw new Error(
+      `Backend /products failed: ${res.status} ${res.statusText} ${body}`
+    );
   }
   return res.json();
 }
@@ -46,7 +40,10 @@ export default async function ProductsPage() {
     <main className="p-8 space-y-6">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Products</h1>
-        <a href="/products/new" className="px-3 py-2 rounded-xl border shadow-sm text-sm">
+        <a
+          href="/products/new"
+          className="px-3 py-2 rounded-xl border shadow-sm text-sm"
+        >
           + New
         </a>
       </div>
@@ -79,7 +76,7 @@ export default async function ProductsPage() {
       )}
 
       <p className="text-xs opacity-60">
-        Fetched via SSR from <code>/api/products</code> (proxy to your Render backend).
+        Fetched via SSR from <code>{BACKEND}/products</code>.
       </p>
     </main>
   );
