@@ -1,13 +1,25 @@
 ﻿// src/app/products/page.tsx
+import { headers } from "next/headers";
+
 type Product = {
   id: number;
   brand: string;
   model: string;
 };
 
-// Call the local Next.js API route (which proxies to FastAPI)
+function getBaseUrl() {
+  const h = headers();
+  const proto = h.get("x-forwarded-proto") ?? "http";
+  const host = h.get("x-forwarded-host") ?? h.get("host");
+  // If we have host/proto (Vercel or prod), use them; else fall back to local dev
+  if (host) return `${proto}://${host}`;
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3006";
+}
+
+// Call our own Next.js API route (which proxies to FastAPI)
 async function getProducts(): Promise<Product[]> {
-  const res = await fetch("/api/products", { cache: "no-store" });
+  const base = getBaseUrl();
+  const res = await fetch(`${base}/api/products`, { cache: "no-store" });
   if (!res.ok) {
     const body = await res.text().catch(() => "");
     throw new Error(`/api/products failed: ${res.status} ${res.statusText} ${body}`);
@@ -29,10 +41,7 @@ export default async function ProductsPage() {
     <main className="p-8 space-y-6">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Products</h1>
-        <a
-          href="/products/new"
-          className="px-3 py-2 rounded-xl border shadow-sm text-sm"
-        >
+        <a href="/products/new" className="px-3 py-2 rounded-xl border shadow-sm text-sm">
           + New
         </a>
       </div>
