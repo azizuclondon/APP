@@ -1,0 +1,16 @@
+--- chunk_id: 10
+--- section_path: Safety Flight Guidelines > Flight Condition Requirements
+--- level: 2
+--- pages: 4-4
+--- chunk_index: 1
+---
+
+light Condition Requirements
+Operational Requirements
+Before use, read the Disclaimer and Safety Guidelines, User Manual, and Maintenance Manual
+carefully.
+Flight Restrictions
+1.	 Connect the aircraft to the internet to update the database of DJI GEO Zones regularly. Consult the
+relevant local government agencies or governing bodies before flight to ensure you comply with all
+the relevant laws and regulations.
+2.	 If flying in GEO Zones is required, apply for unlocking in advance.

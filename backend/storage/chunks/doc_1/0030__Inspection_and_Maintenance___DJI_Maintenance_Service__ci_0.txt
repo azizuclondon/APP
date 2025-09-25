@@ -1,0 +1,19 @@
+--- chunk_id: 54
+--- section_path: Inspection and Maintenance > DJI Maintenance Service
+--- level: 2
+--- pages: 17-18
+--- chunk_index: 0
+---
+
+© 2022 DJI All Rights Reserved. 
+15
+MATRICE 30 SERIES  Maintenance Manual
+DJI Maintenance Service
+1.	 Tap Maintenance Service in HMS.
+2.	 View the flight data and maintenance items of the current devices.
+
+16 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+3.	 When the battery life and device maintenance time are approaching, the text color will be indicated 
+in orange.

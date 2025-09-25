@@ -1,0 +1,66 @@
+--- chunk_id: 21
+--- section_path: Inspection and Maintenance
+--- level: 1
+--- pages: 5-18
+--- chunk_index: 2
+---
+
+4
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Regular Maintenance
+It is recommended to perform inspection and maintenance regularly by following the standards below
+to keep the aircraft in a good condition and reduce safety risks.
+Type
+Maintenance Items
+Maintenance Advice
+Period *
+Basic
+Maintenance
+Deep cleaning, regular
+maintenance items, updates and
+calibrations
+It is recommended to return
+to the factory or contact an
+authorized agent
+According to users'
+actual requirements
+Routine
+Maintenance
+Deep cleaning, regular
+maintenance items, updates
+and calibrations, components
+replacement due to wear and tear
+Factory service
+Per 300-hour flights
+/ Per year**
+Maintenance
+Deep cleaning, regular
+maintenance items, updates
+and calibrations, components
+replacement due to wear and tear,
+propulsion system component
+replacement
+Factory service
+Per 900-hour flights
+/ Per three years**
+*	 The time specified in the maintenance period or the flight time shall be whichever comes first.
+**	 Per year/Per three years expresses the device activation time.
+For various regions, DJI will adjust the maintenance type and period. Contact your local
+dealer or DJI Support for the latest service details.
+Regular Maintenance Items
+Propulsion System
+Type
+Inspection Process
+Illustrations
+Motor
+Rotation
+1.	 Unfold and secure the frame arms.
+2.	 Rotate the rotor of the motor to check if there
+is any blockage or rubbing. Observe the gap
+between the rotor and stator of the motor to
+check if there is any rubbing with the motor
+base.
+3.	 DO NOT fly the aircraft if there is any blockage
+or rubbing mentioned above. It is necessary
+to return to the factory for repair.

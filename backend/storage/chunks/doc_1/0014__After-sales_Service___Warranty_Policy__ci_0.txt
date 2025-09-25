@@ -1,0 +1,50 @@
+--- chunk_id: 59
+--- section_path: After-sales Service > Warranty Policy
+--- level: 2
+--- pages: 19-19
+--- chunk_index: 0
+---
+
+© 2022  大疆创新  版权所有
+17
+After-sales Service
+Warranty Policy
+Warranty period may vary according to local laws and regulations.
+Warranty Period for Aircraft Parts (12 months for the whole machine)
+Aircraft Parts
+Warranty Period
+Flight Control System
+12 Months
+Aircraft Body
+12 Months
+Motor
+12 Months
+ESC
+12 Months
+Antenna
+12 Months
+Gimbal Camera
+12 Months
+Warranty Period for Other Parts
+Other Parts
+Warranty Period
+TB30 Intelligent Flight
+Battery
+12 Months (for batteries with up to 400 charge cycles and stored with
+a charge of 90% or above for no more than 120 days)
+BS30 Intelligent Battery
+Station
+12 Months
+Intelligent Remote
+Controller
+12 Months
+DJI Cellular Dongle *
+12 Months
+WB37 Intelligent Battery*
+12 Months
+PSDK Mounting Bracket*
+3 Months
+Carrying Box
+3 Months
+*	 Excluded accessories.
+Visit https://www.dji.com/service/policy to view product warranty period and warranty policy.

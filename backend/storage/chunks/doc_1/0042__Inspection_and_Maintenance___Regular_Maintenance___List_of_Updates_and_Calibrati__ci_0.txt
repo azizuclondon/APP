@@ -1,0 +1,73 @@
+--- chunk_id: 51
+--- section_path: Inspection and Maintenance > Regular Maintenance > List of Updates and Calibrations
+--- level: 3
+--- pages: 13-13
+--- chunk_index: 0
+---
+
+© 2022 DJI All Rights Reserved.
+11
+MATRICE 30 SERIES  Maintenance Manual
+2.	 It is recommended to recycle the battery by following the Intelligent Flight Battery Safety Guidelines
+to avoid environmental pollution.
+Warnings
+1.	 It is recommended to charge and discharge the battery in a special explosion-proof cabinet.
+2.	 DO NOT use the battery in a humid environment to avoid short circuits.
+3.	 Never disassemble or pierce the battery in any way.
+4.	 Store Intelligent Flight Batteries in a well-ventilated and dry place.
+5.	 Initiate RTH immediately when the app prompts that the battery temperature is too high.
+List of Updates and Calibrations
+It is recommended to update the firmware of the aircraft and the remote controller in time, and perform
+calibration regularly to keep the aircraft in the best condition.
+No.
+Category
+1
+Aircraft firmware update
+2
+Remote controller firmware update
+3
+IMU calibration
+4
+Compass calibration
+5
+Vision system calibration
+6
+Gimbal calibration
+List of Wearing Parts
+Replace parts that are easily damaged and worn in time to maintain the best flight results and reduce
+potential safety hazards.
+No.
+Category
+Quantity
+1
+CW propeller blade *
+4
+2
+CCW propeller blade *
+4
+3
+Motor **
+4
+4
+Rear landing gear on the lower cover
+1
+5
+Landing gear with the video transmission antenna inside
+2
+6
+Upper cover of the frame arm connector
+4
+7
+Battery release toggle
+2
+8
+Air inlet filter
+1
+9
+Air outlet filter
+1
+10
+Remote controller control stick cap
+2
+*	 Each motor is used with two CW propeller blades or two CCW propeller blades.
+**	 Replace only for deep maintenance.

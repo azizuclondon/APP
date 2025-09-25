@@ -1,0 +1,644 @@
+===== [PAGE 1] =====
+v1.0
+2022.09
+Maintenance Manual
+
+===== [PAGE 2] =====
+This document is copyrighted by DJI with all rights reserved. Unless otherwise authorized by DJI, 
+you are not eligible to use or allow others to use the document or any part of the document by 
+reproducing, transferring or selling the document. Users should only refer to this document and 
+the content thereof as instructions to operate DJI UAV. The document should not be used for other 
+purposes.
+  Searching for Keywords
+Search for keywords such as “battery” and “install” to find a topic. If you are using Adobe 
+Acrobat Reader to read this document, press Ctrl+F on Windows or Command+F on Mac to 
+begin a search.
+  Navigating to a Topic
+View a complete list of topics in the table of contents. Click on a topic to navigate to that section.
+ Printing this Document
+This document supports high resolution printing.
+
+===== [PAGE 3] =====
+© 2022 DJI All Rights Reserved. 
+1
+Contents
+Introduction	
+2
+Disclaimer	
+2
+Safety Flight Guidelines	
+2
+Flight Condition Requirements	
+2
+Operational Requirements	
+2
+Flight Restrictions	
+2
+Storage and Transportation	
+3
+Firmware Update	
+3
+Inspection and Maintenance	
+3
+Pre-Flight Checklist	
+3
+Regular Maintenance	
+4
+Regular Maintenance Items	
+4
+Propulsion System	
+4
+Flight Controller	
+6
+Aircraft Structure	
+6
+Battery	
+10
+List of Updates and Calibrations	
+11
+List of Wearing Parts	
+11
+Health Management System	
+12
+DJI Maintenance Service	
+15
+After-sales Service	
+17
+Warranty Policy	
+17
+Warranty Period for Aircraft Parts (12 months for the whole machine)	
+17
+Warranty Period for Other Parts	
+17
+Handling Procedures for Flight Accident	
+18
+Flyaway Accident	
+18
+Collision or Crash Accident	
+18
+Shipping the Product for Repair	
+18
+
+===== [PAGE 4] =====
+2 
+© 2022 DJI All Rights Reserved.
+Introduction
+This Maintenance Manual offers guidelines to help you in the daily upkeep and maintenance of the 
+aircraft, and also provides after-sales service information. 
+This document focuses on the maintenance instructions and the notes, cautions, and warnings during 
+use. Read the User Manual and Maintenance Manual carefully to optimize user experience. If you 
+have any questions on the maintenance operations, please contact DJI Support.
+Disclaimer
+Carefully read this entire document and all safe and lawful practices provided by DJI
+TM before using 
+this product for the first time. Failure to read and follow instructions and warnings may result in serious 
+injury to yourself or others, damage to your DJI product, or damage to other objects in the vicinity. 
+By using this product, you hereby signify that you have read this document carefully and understand 
+and agree to abide by all terms and conditions of this document and all relevant documents of this 
+product. You agree that you are solely responsible for your own conduct while using this product and 
+for any consequences thereof. DJI accepts no liability for damage, injury, or any legal responsibility 
+incurred directly or indirectly from the use of this product. 
+DJI is a trademark of SZ DJI TECHNOLOGY CO., LTD. (abbreviated as “DJI”) and its affiliated 
+companies. Names of products, brands, etc., appearing in this document are trademarks or registered 
+trademarks of their respective owner companies. This product and document are copyrighted by DJI 
+with all rights reserved. No part of this product or document shall be reproduced in any form without 
+the prior written consent or authorization of DJI. This document and all other collateral documents are 
+subject to change at the sole discretion of DJI. This content is subject to change without prior notice. 
+For up-to-date product information, visit http://www.dji.com and click on the product page for this 
+product.
+Safety Flight Guidelines
+Flight Condition Requirements
+Operational Requirements
+Before use, read the Disclaimer and Safety Guidelines, User Manual, and Maintenance Manual 
+carefully. 
+Flight Restrictions
+1.	 Connect the aircraft to the internet to update the database of DJI GEO Zones regularly. Consult the 
+relevant local government agencies or governing bodies before flight to ensure you comply with all 
+the relevant laws and regulations.
+2.	 If flying in GEO Zones is required, apply for unlocking in advance.
+	
+https://www.dji.com/flysafe
+
+===== [PAGE 5] =====
+© 2022 DJI All Rights Reserved. 
+3
+MATRICE 30 SERIES  Maintenance Manual
+Storage and Transportation
+There are safety requirements for the storage and transportation of the Intelligent Flight Batteries. 
+Please strictly follow these Intelligent Flight Battery Safety Guidelines.
+Firmware Update
+To optimize the experience, it is recommended to keep the firmware of the aircraft, Intelligent Flight 
+Batteries and remote controller up to date before each flight. Refer to the User Manual for instructions 
+on running a firmware update.
+If the firmware update fails, restart the device and try again. Contact DJI Support if the issue persists. 
+Inspection and Maintenance
+Routine inspection before operations or regular maintenance can greatly improve the aircraft’s 
+reliability, reduce potential safety hazards, and extend its service life. 
+Pre-Flight Checklist
+The pre-flight checklist can be used as a reference for pre-flight check in daily operations.
+1.	 Make sure the remote controller and the aircraft batteries are fully charged, the TB30 batteries are 
+installed firmly, and the battery release toggles are locked.
+2.	 Make sure the propellers are securely mounted and not damaged or deformed, that there are no 
+foreign objects in or on the motors or propellers, the propeller blades and arms are unfolded, and 
+that the frame arm folding buttons are popped out in the locked position.
+3.	 Make sure the lenses of the vision systems, cameras, FPV, the glass of the infrared sensors, and 
+the auxiliary lights are clean and not blocked in any way.
+4.	 Make sure the gimbal is unlocked and the camera is facing the front of the aircraft.
+5.	 Make sure the covers of the microSD card slot, OSDK port, and dongle compartment have been 
+closed firmly.
+6.	 Make sure the remote controller antennas are adjusted to the proper position.
+7.	 Power on the aircraft and the remote controller, toggle the flight mode switch to N-mode. Make 
+sure the status LED and the aircraft authority button on the remote controller are solid green. 
+This indicates that the aircraft and the remote controller are linked and the remote controller is in 
+control of the aircraft.
+8.	 Place the aircraft on open and flat ground. Make sure there are no obstacles, buildings, or trees 
+nearby, and that the aircraft is 5 m away from the pilot. The pilot should be facing the rear of the 
+aircraft.
+9.	 To ensure flight safety, enter the camera view of DJI Pilot 2 and check the parameters on the 
+pre-flight checklist such as the failsafe settings, control stick mode, RTH height, and obstacle 
+distance. It is recommended to set the out-of-control action to RTH.
+10.	 Divide the airspace for flight when multiple aircraft are operating simultaneously in order to avoid 
+collision mid-air.
+
+===== [PAGE 6] =====
+4 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Regular Maintenance
+It is recommended to perform inspection and maintenance regularly by following the standards below 
+to keep the aircraft in a good condition and reduce safety risks.
+Type
+Maintenance Items
+Maintenance Advice
+Period *
+Basic 
+Maintenance
+Deep cleaning, regular 
+maintenance items, updates and 
+calibrations
+It is recommended to return 
+to the factory or contact an 
+authorized agent
+According to users’ 
+actual requirements
+Routine 
+Maintenance
+Deep cleaning, regular 
+maintenance items, updates 
+and calibrations, components 
+replacement due to wear and tear
+Factory service
+Per 300-hour flights 
+/ Per year**
+Maintenance
+Deep cleaning, regular 
+maintenance items, updates 
+and calibrations, components 
+replacement due to wear and tear, 
+propulsion system component 
+replacement
+Factory service
+Per 900-hour flights 
+/ Per three years**
+*	 The time specified in the maintenance period or the flight time shall be whichever comes first.
+**	 Per year/Per three years expresses the device activation time.
+For various regions, DJI will adjust the maintenance type and period. Contact your local 
+dealer or DJI Support for the latest service details.
+Regular Maintenance Items
+Propulsion System
+Type
+Inspection Process
+Illustrations
+Motor 
+Rotation
+1.	 Unfold and secure the frame arms.
+2.	 Rotate the rotor of the motor to check if there 
+is any blockage or rubbing. Observe the gap 
+between the rotor and stator of the motor to 
+check if there is any rubbing with the motor 
+base.
+3.	 DO NOT fly the aircraft if there is any blockage 
+or rubbing mentioned above. It is necessary 
+to return to the factory for repair.
+
+===== [PAGE 7] =====
+© 2022 DJI All Rights Reserved. 
+5
+MATRICE 30 SERIES  Maintenance Manual
+Connection 
+between 
+Motor and 
+Arm
+1.	 Rotate the motor base around the central 
+line of carbon tube to check if the motor and 
+carbon tube connection is loose. 
+2.	 The four fixing screws are secure.
+3.	 If any screw is loose, return to the factory for 
+repair.
+Motor Air 
+Filters
+1.	 Air filters are not severely misshapen or 
+damaged.
+2.	 If they are severely misshapen (such as being 
+bumped) or damaged, return to the factory for 
+repair.
+Propellers
+1.	 Check the propellers for visible deformation, 
+severe wear, nicks, and cracks, and if there 
+are any foreign materials.
+2.	 Clean the propellers with a dry soft cloth.
+3.	 Replace the propellers immediately if visible 
+deformation, severe wear, nicks, or cracks 
+occur. *
+4.	 Replace the propellers after flying over 300 
+hours or using for one year. *
+Propeller 
+Adapters
+1.	 The propeller adapter screws are secure.
+2.	 If the screws are loose, apply thread locker 
+and tighten the screws.
+3.	 The propeller adapters are not misshapen or 
+broken.
+4.	 Replace the propeller adapters if they are 
+misshapen or damaged.
+*	 It is recommended to replace the propellers only in an emergency situation during operations. After the emergency 
+flight is over, please contact DJI Support or an authorized dealer for overhaul as soon as possible.
+
+===== [PAGE 8] =====
+6 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Flight Controller
+1.	 After the aircraft is powered on and self-check is complete, there are no error prompts in the app 
+related to the flight controller.
+2.	 In outdoor open environments, the GNSS signal reaches “Strong” level within 1 minute of powering 
+on the aircraft, indicating that the Home Point can be recorded automatically, and the RTK data 
+meets the heading measurement standard.
+3.	 In outdoor open environments, the interference of the compass after calibration is less than 50.
+4.	 Sensor bias is less than 0.05 after the IMU calibration.
+Aircraft Structure
+Type
+Inspection Process
+Illustrations
+Aircraft 
+Appearance
+1.	 The aircraft body is clean and not damaged.
+2.	 Clean the aircraft body with a clean and soft 
+cloth, especially for the lenses of the infrared 
+sensing and vision systems and the heat 
+dissipation vents.
+Screws
+1.	 All the screws on the aircraft body are 
+tightened, especially the screws connecting the 
+motor and the carbon tube.
+Frame Arms
+1.	 The 12 screws on the four frame arms are 
+secure.
+2.	 The screw nuts attached on the shaft screws 
+are secure when rotating the frame arms.
+3.	 The arm junctions are not damaged or 
+cracked.
+4.	 The frame arm folding buttons can pop out 
+smoothly so that the frame arms are unfolded 
+and locked firmly.
+5.	 The frame arm folding buttons can be pressed 
+down smoothly when the arms are folded.
+
+===== [PAGE 9] =====
+© 2022 DJI All Rights Reserved. 
+7
+MATRICE 30 SERIES  Maintenance Manual
+Frame Arm 
+LEDs
+1.	 There is no foreign object or damage on the 
+surface.
+ 
+Battery 
+Compartment
+1.	 The battery ports are clean and dry without 
+any corrosion. Remove any water or dust if 
+present.
+2.	 The screws on the battery release toggles are 
+secure.
+3.	 The battery release toggles spring back 
+normally after being toggled.
+4.	 After the battery is installed, the battery 
+release toggle can spring back normally 
+without obvious shaking.
+Data Ports
+1.	 Clean any unwanted residue near the ports 
+with a gauze.
+2.	 If the ports are in use, disconnect the cables, 
+and then check for any unwanted residue in 
+the ports with the help of a light.
+3.	 Remove any foreign objects such as small 
+pieces of stone or paper in the ports using 
+tweezers.
+4.	 Clean any adhesive materials that are in the 
+port with a gauze.
+5.	 Place the aircraft at an angle and use a gauze 
+or brush to remove any fine materials such 
+as dust from the port. Note clean thoroughly, 
+sweeping away from the port.
+
+===== [PAGE 10] =====
+8 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+microSD 
+Card 
+Information
+1.	 Check if there are any foreign objects in 
+the microSD card slot and if the microSD is 
+installed correctly.
+2.	 Check if the microSD card is working properly.
+Rubber Port 
+Covers
+1.	 The rubber port covers are not damaged or 
+loose.
+Heat 
+Dissipation 
+Vents
+1.	 The heat dissipation vents are not blocked. 
+The cooling fans work smoothly without noise.
+Gimbal 
+Damping 
+Plate
+1.	 The dampeners are not damaged, loose, or 
+aged.
+2.	 The screws connecting the damping plate and 
+aircraft body are secure.
+
+===== [PAGE 11] =====
+© 2022 DJI All Rights Reserved. 
+9
+MATRICE 30 SERIES  Maintenance Manual
+Gimbal 
+Camera
+1.	 Rotate the gimbal pitch axis to +90° so that 
+the camera can be locked.
+2.	 The lenses on the camera are not damaged or 
+cracked.
+Infrared 
+Sensing 
+and Vision 
+System 
+Lenses, 
+Auxiliary 
+Lights, and 
+Beacons
+1.	 Clean the lenses with a soft cloth.
+2.	 Lenses are not loose and have no cracks.
+3.	 The auxiliary lights and beacons are not loose 
+or cracked.
+Infrared Sensing and Vision Systems
+Rear View
+Bottom View
+Auxiliary Lights
+Beacons
+
+===== [PAGE 12] =====
+10 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Battery
+Battery Maintenance Conditions
+Maintenance is required when any of the events below occur.
+1.	 Every 50 cycles.
+2.	 The battery is idle for more than three months.
+3.	 There is a maintenance prompt in the app.
+Checklist for Maintenance
+1.	 Charge and discharge the battery as per instructions.
+2.	 Insert the battery into the aircraft and power on to view the battery information in DJI Pilot 2. Make 
+sure the difference in cell voltage is less than 0.1 V and the battery firmware is updated to the 
+latest version.
+3.	 Make sure the battery is not swollen, leaking, or damaged.
+4.	 Make sure battery terminals are clean.
+Standard Charge and Discharge Operation Instructions
+Charge to 100%
+Rest for 24 hours
+Discharge to below 20%
+Rest for 1 hour
+1.	 Charge the battery to 100% and let the battery sit for 24 hours.
+2.	 Install the battery into the aircraft and take off. Land the aircraft and remove the battery when the 
+remaining power level is 20% or lower.
+3.	 Let the battery sit for one hour.
+4.	 Charge the battery fully or to the proper power level for storage after completing battery maintenance.
+Battery Replacement Standard
+1.	 The battery is visibly swollen, leaking, or damaged.
+2.	 The battery is rated for 400 cycles. It is not recommended to continue use afterward.
+3.	 The battery error still exists after performing the standard charge and discharge operations twice 
+continuously.
+Battery Disposal
+1.	 Make sure to remove the protective plastic sheet on the side of the battery before fully immerse the 
+battery in an insulated bucket with 5% salt solution. Leave the battery in the solution for more than 
+48 hours to fully discharge the battery.
+
+===== [PAGE 13] =====
+© 2022 DJI All Rights Reserved. 
+11
+MATRICE 30 SERIES  Maintenance Manual
+2.	 It is recommended to recycle the battery by following the Intelligent Flight Battery Safety Guidelines 
+to avoid environmental pollution.
+Warnings
+1.	 It is recommended to charge and discharge the battery in a special explosion-proof cabinet.
+2.	 DO NOT use the battery in a humid environment to avoid short circuits.
+3.	 Never disassemble or pierce the battery in any way.
+4.	 Store Intelligent Flight Batteries in a well-ventilated and dry place.
+5.	 Initiate RTH immediately when the app prompts that the battery temperature is too high.
+List of Updates and Calibrations
+It is recommended to update the firmware of the aircraft and the remote controller in time, and perform 
+calibration regularly to keep the aircraft in the best condition.
+No.
+Category
+1
+Aircraft firmware update
+2
+Remote controller firmware update
+3
+IMU calibration
+4
+Compass calibration
+5
+Vision system calibration
+6
+Gimbal calibration
+List of Wearing Parts
+Replace parts that are easily damaged and worn in time to maintain the best flight results and reduce 
+potential safety hazards.
+No.
+Category
+Quantity
+1 
+CW propeller blade *
+4
+2
+CCW propeller blade *
+4
+3
+Motor **
+4
+4
+Rear landing gear on the lower cover
+1
+5
+Landing gear with the video transmission antenna inside
+2
+6
+Upper cover of the frame arm connector
+4
+7
+Battery release toggle
+2
+8
+Air inlet filter
+1
+9
+Air outlet filter
+1
+10
+Remote controller control stick cap
+2
+*	 Each motor is used with two CW propeller blades or two CCW propeller blades.
+**	 Replace only for deep maintenance.
+
+===== [PAGE 14] =====
+12 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+2.	 View the health condition of each module of the connected device.
+Health Management System
+Users can view the status of each module and upload the log with an abnormal status in the Health 
+Management System (HMS) page in DJI Pilot 2.
+1.	 Enter the HMS page in DJI Pilot 2.
+
+===== [PAGE 15] =====
+© 2022 DJI All Rights Reserved. 
+13
+MATRICE 30 SERIES  Maintenance Manual
+3.	 If any module is abnormal, tap to view the warning message.
+4.	 Tap the warning message to view the help document for troubleshooting. If the abnormal status 
+still exists after check by following the document, users can upload the log, send the QR code or 
+the tracking number to DJI Support for help.
+
+===== [PAGE 16] =====
+14 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+5.	 At the same time, users can tap the log management to select the aircraft, remote controller, and 
+battery station* with abnormal flights according to the log deadline to upload logs.
+*	 The battery station USB-C maintenance port must be connected to the remote controller USB-A port by using a 
+cable when exporting the battery station log.
+
+===== [PAGE 17] =====
+© 2022 DJI All Rights Reserved. 
+15
+MATRICE 30 SERIES  Maintenance Manual
+DJI Maintenance Service
+1.	 Tap Maintenance Service in HMS.
+2.	 View the flight data and maintenance items of the current devices.
+
+===== [PAGE 18] =====
+16 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+3.	 When the battery life and device maintenance time are approaching, the text color will be indicated 
+in orange.
+
+===== [PAGE 19] =====
+© 2022  大疆创新  版权所有 
+17
+After-sales Service
+Warranty Policy
+Warranty period may vary according to local laws and regulations.
+Warranty Period for Aircraft Parts (12 months for the whole machine)
+Aircraft Parts
+Warranty Period
+Flight Control System
+12 Months
+Aircraft Body
+12 Months
+Motor
+12 Months
+ESC
+12 Months
+Antenna
+12 Months
+Gimbal Camera
+12 Months
+Warranty Period for Other Parts
+Other Parts
+Warranty Period
+TB30 Intelligent Flight 
+Battery
+12 Months (for batteries with up to 400 charge cycles and stored with 
+a charge of 90% or above for no more than 120 days)
+BS30 Intelligent Battery 
+Station
+12 Months
+Intelligent Remote 
+Controller
+12 Months
+DJI Cellular Dongle *
+12 Months
+WB37 Intelligent Battery*
+12 Months
+PSDK Mounting Bracket*
+3 Months
+Carrying Box
+3 Months
+*	 Excluded accessories.
+Visit https://www.dji.com/service/policy to view product warranty period and warranty policy.
+
+===== [PAGE 20] =====
+18 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Handling Procedures for Flight Accident
+When your aircraft encounters a flight accident, please follow below steps below to handle it. 
+Flyaway Accident
+1.	 Contact DJI Support as soon as possible to describe the accident;  
+2.	 View the flight record in DJI Pilot 2, and look for the aircraft around the data interruption location 
+based on the actual terrain; 
+3.	 Connect the remote controller to the computer, export the flight control system data and flight 
+records, and contact DJI Support or local dealers for assistance in applying for data analysis; 
+4.	 DJI will provide a solution based on the analysis results. 
+Collision or Crash Accident
+1.	 Take photos of the aircraft status and surrounding environment in time after the accident, and 
+record the aircraft status and the accident process before the accident; 
+2.	 Make sure the aircraft is powered off, remove the batteries from the aircraft, and use an isolation 
+box to store the batteries.  Note: DO NOT power on the aircraft again if the accident is serious, 
+otherwise it may damage the internal circuit of the aircraft and cause greater loss; 
+3.	 Connect the remote controller to the computer, export the flight control system data and flight 
+records, and contact DJI Support or local dealers for assistance in applying for data analysis; 
+4.	 Ship the device for repair.
+Shipping the Product for Repair
+You can choose one of the methods below to ship the product for repair according to the actual 
+situation.
+1. Official website self-service repair:
+	
+Visit the official website of the DJI Service Center https://repair.dji.com/repair/index, and follow the 
+instructions to complete the self-service repair service. 
+2. Contact your local dealer for assistance: 
+	
+Contact your local dealer and describe the product's issue. The dealer can assist you to send the 
+product for repair.
+3. DJI Support hotline service:
+	
+Contact DJI Support to describe the product's issue and service type, such as repair, return or 
+replace, and ship the product back according to the guidelines. 
+	
+Visit the following website to view phone support options for hotline service:  
+	
+https://www.dji.com/support
+
+===== [PAGE 21] =====
+Contact 
+DJI SUPPORT
+ and MATRICE are trademarks of DJI. 
+Copyright © 2022 DJI All Rights Reserved.
+This content is subject to change without notice.
+Download the latest version from
+If you have any questions about this document, please contact DJI by sending a 
+message to DocSupport@dji.com.
+https://www.dji.com/matrice-30/downloads

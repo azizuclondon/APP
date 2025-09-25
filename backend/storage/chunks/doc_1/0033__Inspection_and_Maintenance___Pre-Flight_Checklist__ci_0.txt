@@ -1,0 +1,36 @@
+--- chunk_id: 29
+--- section_path: Inspection and Maintenance > Pre-Flight Checklist
+--- level: 2
+--- pages: 5-5
+--- chunk_index: 0
+---
+
+© 2022 DJI All Rights Reserved.
+3
+MATRICE 30 SERIES  Maintenance Manual
+Storage and Transportation
+There are safety requirements for the storage and transportation of the Intelligent Flight Batteries.
+Please strictly follow these Intelligent Flight Battery Safety Guidelines.
+Firmware Update
+To optimize the experience, it is recommended to keep the firmware of the aircraft, Intelligent Flight
+Batteries and remote controller up to date before each flight. Refer to the User Manual for instructions
+on running a firmware update.
+If the firmware update fails, restart the device and try again. Contact DJI Support if the issue persists.
+Inspection and Maintenance
+Routine inspection before operations or regular maintenance can greatly improve the aircraft's
+reliability, reduce potential safety hazards, and extend its service life.
+Pre-Flight Checklist
+The pre-flight checklist can be used as a reference for pre-flight check in daily operations.
+1.	 Make sure the remote controller and the aircraft batteries are fully charged, the TB30 batteries are
+installed firmly, and the battery release toggles are locked.
+2.	 Make sure the propellers are securely mounted and not damaged or deformed, that there are no
+foreign objects in or on the motors or propellers, the propeller blades and arms are unfolded, and
+that the frame arm folding buttons are popped out in the locked position.
+3.	 Make sure the lenses of the vision systems, cameras, FPV, the glass of the infrared sensors, and
+the auxiliary lights are clean and not blocked in any way.
+4.	 Make sure the gimbal is unlocked and the camera is facing the front of the aircraft.
+5.	 Make sure the covers of the microSD card slot, OSDK port, and dongle compartment have been
+closed firmly.
+6.	 Make sure the remote controller antennas are adjusted to the proper position.
+7.	 Power on the aircraft and the remote controller, toggle the flight mode switch to N-mode. Make
+sure the status LED and the aircraft authority button on the remote contro

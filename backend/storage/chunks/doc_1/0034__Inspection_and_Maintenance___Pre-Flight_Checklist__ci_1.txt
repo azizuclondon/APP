@@ -1,0 +1,18 @@
+--- chunk_id: 30
+--- section_path: Inspection and Maintenance > Pre-Flight Checklist
+--- level: 2
+--- pages: 5-5
+--- chunk_index: 1
+---
+
+ller are solid green.
+This indicates that the aircraft and the remote controller are linked and the remote controller is in
+control of the aircraft.
+8.	 Place the aircraft on open and flat ground. Make sure there are no obstacles, buildings, or trees
+nearby, and that the aircraft is 5 m away from the pilot. The pilot should be facing the rear of the
+aircraft.
+9.	 To ensure flight safety, enter the camera view of DJI Pilot 2 and check the parameters on the
+pre-flight checklist such as the failsafe settings, control stick mode, RTH height, and obstacle
+distance. It is recommended to set the out-of-control action to RTH.
+10.	 Divide the airspace for flight when multiple aircraft are operating simultaneously in order to avoid
+collision mid-air.

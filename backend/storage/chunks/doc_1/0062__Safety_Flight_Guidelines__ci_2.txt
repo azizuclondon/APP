@@ -1,0 +1,8 @@
+--- chunk_id: 79
+--- section_path: Safety Flight Guidelines
+--- level: 1
+--- pages: 4-4
+--- chunk_index: 2
+---
+
+https://www.dji.com/flysafe

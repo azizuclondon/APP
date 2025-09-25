@@ -1,0 +1,31 @@
+--- chunk_id: 9
+--- section_path: Safety Flight Guidelines > Flight Condition Requirements
+--- level: 2
+--- pages: 4-4
+--- chunk_index: 0
+---
+
+2 
+© 2022 DJI All Rights Reserved.
+Introduction
+This Maintenance Manual offers guidelines to help you in the daily upkeep and maintenance of the 
+aircraft, and also provides after-sales service information. 
+This document focuses on the maintenance instructions and the notes, cautions, and warnings during 
+use. Read the User Manual and Maintenance Manual carefully to optimize user experience. If you 
+have any questions on the maintenance operations, please contact DJI Support.
+Disclaimer
+Carefully read this entire document and all safe and lawful practices provided by DJI
+TM before using 
+this product for the first time. Failure to read and follow instructions and warnings may result in serious 
+injury to yourself or others, damage to your DJI product, or damage to other objects in the vicinity. 
+By using this product, you hereby signify that you have read this document carefully and understand 
+and agree to abide by all terms and conditions of this document and all relevant documents of this 
+product. You agree that you are solely responsible for your own conduct while using this product and 
+for any consequences thereof. DJI accepts no liability for damage, injury, or any legal responsibility 
+incurred directly or indirectly from the use of this product. 
+DJI is a trademark of SZ DJI TECHNOLOGY CO., LTD. (abbreviated as “DJI”) and its affiliated 
+companies. Names of products, brands, etc., appearing in this document are trademarks or registered 
+trademarks of their respective owner companies. This product and document are copyrighted by DJI 
+with all rights reserved. No part of this product or document shall be reproduced in any form without 
+the prior written consent or authorization of DJI. This document and all other collateral documents are 
+subject to change at t

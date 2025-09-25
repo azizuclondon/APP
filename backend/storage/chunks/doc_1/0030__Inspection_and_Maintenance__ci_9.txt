@@ -1,0 +1,35 @@
+--- chunk_id: 28
+--- section_path: Inspection and Maintenance
+--- level: 1
+--- pages: 5-18
+--- chunk_index: 9
+---
+
+© 2022 DJI All Rights Reserved.
+13
+MATRICE 30 SERIES  Maintenance Manual
+3.	 If any module is abnormal, tap to view the warning message.
+4.	 Tap the warning message to view the help document for troubleshooting. If the abnormal status
+still exists after check by following the document, users can upload the log, send the QR code or
+the tracking number to DJI Support for help.
+
+14
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+5.	 At the same time, users can tap the log management to select the aircraft, remote controller, and
+battery station* with abnormal flights according to the log deadline to upload logs.
+*	 The battery station USB-C maintenance port must be connected to the remote controller USB-A port by using a
+cable when exporting the battery station log.
+
+© 2022 DJI All Rights Reserved.
+15
+MATRICE 30 SERIES  Maintenance Manual
+DJI Maintenance Service
+1.	 Tap Maintenance Service in HMS.
+2.	 View the flight data and maintenance items of the current devices.
+
+16
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+3.	 When the battery life and device maintenance time are approaching, the text color will be indicated
+in orange.

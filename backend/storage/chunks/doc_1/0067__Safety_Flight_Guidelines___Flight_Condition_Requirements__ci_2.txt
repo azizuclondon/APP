@@ -1,0 +1,8 @@
+--- chunk_id: 82
+--- section_path: Safety Flight Guidelines > Flight Condition Requirements
+--- level: 2
+--- pages: 4-4
+--- chunk_index: 2
+---
+
+https://www.dji.com/flysafe

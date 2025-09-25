@@ -1,0 +1,13 @@
+--- chunk_id: 65
+--- section_path: After-sales Service > Handling Procedures for Flight Accident > Flyaway Accident
+--- level: 3
+--- pages: 20-20
+--- chunk_index: 1
+---
+
+Contact DJI Support to describe the product's issue and service type, such as repair, return or
+replace, and ship the product back according to the guidelines.
+
+Visit the following website to view phone support options for hotline service:
+
+https://www.dji.com/support

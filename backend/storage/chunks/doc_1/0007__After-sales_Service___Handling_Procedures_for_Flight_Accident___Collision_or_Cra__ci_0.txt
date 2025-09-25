@@ -1,0 +1,40 @@
+--- chunk_id: 66
+--- section_path: After-sales Service > Handling Procedures for Flight Accident > Collision or Crash Accident
+--- level: 3
+--- pages: 20-20
+--- chunk_index: 0
+---
+
+18
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Handling Procedures for Flight Accident
+When your aircraft encounters a flight accident, please follow below steps below to handle it.
+Flyaway Accident
+1.	 Contact DJI Support as soon as possible to describe the accident;
+2.	 View the flight record in DJI Pilot 2, and look for the aircraft around the data interruption location
+based on the actual terrain;
+3.	 Connect the remote controller to the computer, export the flight control system data and flight
+records, and contact DJI Support or local dealers for assistance in applying for data analysis;
+4.	 DJI will provide a solution based on the analysis results.
+Collision or Crash Accident
+1.	 Take photos of the aircraft status and surrounding environment in time after the accident, and
+record the aircraft status and the accident process before the accident;
+2.	 Make sure the aircraft is powered off, remove the batteries from the aircraft, and use an isolation
+box to store the batteries.  Note: DO NOT power on the aircraft again if the accident is serious,
+otherwise it may damage the internal circuit of the aircraft and cause greater loss;
+3.	 Connect the remote controller to the computer, export the flight control system data and flight
+records, and contact DJI Support or local dealers for assistance in applying for data analysis;
+4.	 Ship the device for repair.
+Shipping the Product for Repair
+You can choose one of the methods below to ship the product for repair according to the actual
+situation.
+1. Official website self-service repair:
+
+Visit the official website of the DJI Service Center https://repair.dji.com/repair/index, and follow the
+instructions to complete the self-service repair service.
+2. Contact your local dealer for assistance:
+
+Contact your local dealer and describe the product's issue. The dealer can assist you to send the
+product for repair.
+3. DJI Support hotline service:

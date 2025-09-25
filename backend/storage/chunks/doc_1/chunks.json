@@ -1,0 +1,752 @@
+[
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0001__After-sales_Service__ci_0.txt",
+    "chunk_id": 55,
+    "section_path": "After-sales Service",
+    "level": 1,
+    "start_page": 19,
+    "end_page": 21,
+    "chunk_index": 0,
+    "chars": 889
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0002__After-sales_Service__ci_1.txt",
+    "chunk_id": 56,
+    "section_path": "After-sales Service",
+    "level": 1,
+    "start_page": 19,
+    "end_page": 21,
+    "chunk_index": 1,
+    "chars": 1943
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0003__After-sales_Service__ci_2.txt",
+    "chunk_id": 57,
+    "section_path": "After-sales Service",
+    "level": 1,
+    "start_page": 19,
+    "end_page": 21,
+    "chunk_index": 2,
+    "chars": 601
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0004__After-sales_Service__ci_3.txt",
+    "chunk_id": 58,
+    "section_path": "After-sales Service",
+    "level": 1,
+    "start_page": 19,
+    "end_page": 21,
+    "chunk_index": 3,
+    "chars": 334
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0005__After-sales_Service___Handling_Procedures_for_Flight_Accident__ci_0.txt",
+    "chunk_id": 62,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident",
+    "level": 2,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 0,
+    "chars": 1943
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0006__After-sales_Service___Handling_Procedures_for_Flight_Accident__ci_1.txt",
+    "chunk_id": 63,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident",
+    "level": 2,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 1,
+    "chars": 268
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0007__After-sales_Service___Handling_Procedures_for_Flight_Accident___Collision_or_Cra__ci_0.txt",
+    "chunk_id": 66,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident > Collision or Crash Accident",
+    "level": 3,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 0,
+    "chars": 1943
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0008__After-sales_Service___Handling_Procedures_for_Flight_Accident___Collision_or_Cra__ci_1.txt",
+    "chunk_id": 67,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident > Collision or Crash Accident",
+    "level": 3,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 1,
+    "chars": 268
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0009__After-sales_Service___Handling_Procedures_for_Flight_Accident___Flyaway_Accident__ci_0.txt",
+    "chunk_id": 64,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident > Flyaway Accident",
+    "level": 3,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 0,
+    "chars": 1943
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0010__After-sales_Service___Handling_Procedures_for_Flight_Accident___Flyaway_Accident__ci_1.txt",
+    "chunk_id": 65,
+    "section_path": "After-sales Service > Handling Procedures for Flight Accident > Flyaway Accident",
+    "level": 3,
+    "start_page": 20,
+    "end_page": 20,
+    "chunk_index": 1,
+    "chars": 268
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0011__After-sales_Service___Shipping_the_Product_for_Repair__ci_0.txt",
+    "chunk_id": 68,
+    "section_path": "After-sales Service > Shipping the Product for Repair",
+    "level": 2,
+    "start_page": 20,
+    "end_page": 21,
+    "chunk_index": 0,
+    "chars": 1943
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0012__After-sales_Service___Shipping_the_Product_for_Repair__ci_1.txt",
+    "chunk_id": 69,
+    "section_path": "After-sales Service > Shipping the Product for Repair",
+    "level": 2,
+    "start_page": 20,
+    "end_page": 21,
+    "chunk_index": 1,
+    "chars": 601
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0013__After-sales_Service___Shipping_the_Product_for_Repair__ci_2.txt",
+    "chunk_id": 70,
+    "section_path": "After-sales Service > Shipping the Product for Repair",
+    "level": 2,
+    "start_page": 20,
+    "end_page": 21,
+    "chunk_index": 2,
+    "chars": 334
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0014__After-sales_Service___Warranty_Policy__ci_0.txt",
+    "chunk_id": 59,
+    "section_path": "After-sales Service > Warranty Policy",
+    "level": 2,
+    "start_page": 19,
+    "end_page": 19,
+    "chunk_index": 0,
+    "chars": 889
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0015__After-sales_Service___Warranty_Policy___Warranty_Period_for_Aircraft_Parts__12_m__ci_0.txt",
+    "chunk_id": 60,
+    "section_path": "After-sales Service > Warranty Policy > Warranty Period for Aircraft Parts (12 months for the whole machine)",
+    "level": 3,
+    "start_page": 19,
+    "end_page": 19,
+    "chunk_index": 0,
+    "chars": 889
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0016__After-sales_Service___Warranty_Policy___Warranty_Period_for_Other_Parts__ci_0.txt",
+    "chunk_id": 61,
+    "section_path": "After-sales Service > Warranty Policy > Warranty Period for Other Parts",
+    "level": 3,
+    "start_page": 19,
+    "end_page": 19,
+    "chunk_index": 0,
+    "chars": 889
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0017__Disclaimer__ci_0.txt",
+    "chunk_id": 5,
+    "section_path": "Disclaimer",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0018__Disclaimer__ci_1.txt",
+    "chunk_id": 6,
+    "section_path": "Disclaimer",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0019__Disclaimer__ci_2.txt",
+    "chunk_id": 76,
+    "section_path": "Disclaimer",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0020__Dummy_PDF_file__ci_0.txt",
+    "chunk_id": 1,
+    "section_path": "Dummy PDF file",
+    "level": 1,
+    "start_page": 1,
+    "end_page": 1,
+    "chunk_index": 0,
+    "chars": 14
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0021__Inspection_and_Maintenance__ci_0.txt",
+    "chunk_id": 19,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0022__Inspection_and_Maintenance__ci_1.txt",
+    "chunk_id": 20,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 1,
+    "chars": 750
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0023__Inspection_and_Maintenance__ci_2.txt",
+    "chunk_id": 21,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 2,
+    "chars": 1680
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0024__Inspection_and_Maintenance__ci_3.txt",
+    "chunk_id": 22,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 3,
+    "chars": 1348
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0025__Inspection_and_Maintenance__ci_4.txt",
+    "chunk_id": 23,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 4,
+    "chars": 1581
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0026__Inspection_and_Maintenance__ci_5.txt",
+    "chunk_id": 24,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 5,
+    "chars": 1497
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0027__Inspection_and_Maintenance__ci_6.txt",
+    "chunk_id": 25,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 6,
+    "chars": 521
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0028__Inspection_and_Maintenance__ci_7.txt",
+    "chunk_id": 26,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 7,
+    "chars": 1744
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0029__Inspection_and_Maintenance__ci_8.txt",
+    "chunk_id": 27,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 8,
+    "chars": 1945
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0030__Inspection_and_Maintenance__ci_9.txt",
+    "chunk_id": 28,
+    "section_path": "Inspection and Maintenance",
+    "level": 1,
+    "start_page": 5,
+    "end_page": 18,
+    "chunk_index": 9,
+    "chars": 1189
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0031__Inspection_and_Maintenance___DJI_Maintenance_Service__ci_0.txt",
+    "chunk_id": 54,
+    "section_path": "Inspection and Maintenance > DJI Maintenance Service",
+    "level": 2,
+    "start_page": 17,
+    "end_page": 18,
+    "chunk_index": 0,
+    "chars": 392
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0032__Inspection_and_Maintenance___Health_Management_System__ci_0.txt",
+    "chunk_id": 53,
+    "section_path": "Inspection and Maintenance > Health Management System",
+    "level": 2,
+    "start_page": 14,
+    "end_page": 16,
+    "chunk_index": 0,
+    "chars": 1146
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0033__Inspection_and_Maintenance___Pre-Flight_Checklist__ci_0.txt",
+    "chunk_id": 29,
+    "section_path": "Inspection and Maintenance > Pre-Flight Checklist",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0034__Inspection_and_Maintenance___Pre-Flight_Checklist__ci_1.txt",
+    "chunk_id": 30,
+    "section_path": "Inspection and Maintenance > Pre-Flight Checklist",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 1,
+    "chars": 750
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0035__Inspection_and_Maintenance___Regular_Maintenance__ci_0.txt",
+    "chunk_id": 31,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 0,
+    "chars": 1680
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0036__Inspection_and_Maintenance___Regular_Maintenance__ci_1.txt",
+    "chunk_id": 32,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 1,
+    "chars": 1348
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0037__Inspection_and_Maintenance___Regular_Maintenance__ci_2.txt",
+    "chunk_id": 33,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 2,
+    "chars": 1581
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0038__Inspection_and_Maintenance___Regular_Maintenance__ci_3.txt",
+    "chunk_id": 34,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 3,
+    "chars": 1497
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0039__Inspection_and_Maintenance___Regular_Maintenance__ci_4.txt",
+    "chunk_id": 35,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 4,
+    "chars": 521
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0040__Inspection_and_Maintenance___Regular_Maintenance__ci_5.txt",
+    "chunk_id": 36,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 5,
+    "chars": 1744
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0041__Inspection_and_Maintenance___Regular_Maintenance__ci_6.txt",
+    "chunk_id": 37,
+    "section_path": "Inspection and Maintenance > Regular Maintenance",
+    "level": 2,
+    "start_page": 6,
+    "end_page": 13,
+    "chunk_index": 6,
+    "chars": 1594
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0042__Inspection_and_Maintenance___Regular_Maintenance___List_of_Updates_and_Calibrati__ci_0.txt",
+    "chunk_id": 51,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > List of Updates and Calibrations",
+    "level": 3,
+    "start_page": 13,
+    "end_page": 13,
+    "chunk_index": 0,
+    "chars": 1594
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0043__Inspection_and_Maintenance___Regular_Maintenance___List_of_Wearing_Parts__ci_0.txt",
+    "chunk_id": 52,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > List of Wearing Parts",
+    "level": 3,
+    "start_page": 13,
+    "end_page": 13,
+    "chunk_index": 0,
+    "chars": 1594
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0044__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_0.txt",
+    "chunk_id": 38,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 0,
+    "chars": 1680
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0045__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_1.txt",
+    "chunk_id": 39,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 1,
+    "chars": 1348
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0046__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_2.txt",
+    "chunk_id": 40,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 2,
+    "chars": 1581
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0047__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_3.txt",
+    "chunk_id": 41,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 3,
+    "chars": 1497
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0048__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_4.txt",
+    "chunk_id": 42,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 4,
+    "chars": 521
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0049__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items__ci_5.txt",
+    "chunk_id": 43,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items",
+    "level": 3,
+    "start_page": 6,
+    "end_page": 12,
+    "chunk_index": 5,
+    "chars": 1744
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0050__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___A__ci_0.txt",
+    "chunk_id": 47,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Aircraft Structure",
+    "level": 4,
+    "start_page": 8,
+    "end_page": 11,
+    "chunk_index": 0,
+    "chars": 1581
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0051__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___A__ci_1.txt",
+    "chunk_id": 48,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Aircraft Structure",
+    "level": 4,
+    "start_page": 8,
+    "end_page": 11,
+    "chunk_index": 1,
+    "chars": 1497
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0052__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___A__ci_2.txt",
+    "chunk_id": 49,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Aircraft Structure",
+    "level": 4,
+    "start_page": 8,
+    "end_page": 11,
+    "chunk_index": 2,
+    "chars": 521
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0053__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___B__ci_0.txt",
+    "chunk_id": 50,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Battery",
+    "level": 4,
+    "start_page": 12,
+    "end_page": 12,
+    "chunk_index": 0,
+    "chars": 1744
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0054__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___F__ci_0.txt",
+    "chunk_id": 46,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Flight Controller",
+    "level": 4,
+    "start_page": 8,
+    "end_page": 8,
+    "chunk_index": 0,
+    "chars": 1436
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0055__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___P__ci_0.txt",
+    "chunk_id": 44,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Propulsion System",
+    "level": 4,
+    "start_page": 6,
+    "end_page": 7,
+    "chunk_index": 0,
+    "chars": 1680
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0056__Inspection_and_Maintenance___Regular_Maintenance___Regular_Maintenance_Items___P__ci_1.txt",
+    "chunk_id": 45,
+    "section_path": "Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items > Propulsion System",
+    "level": 4,
+    "start_page": 6,
+    "end_page": 7,
+    "chunk_index": 1,
+    "chars": 1348
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0057__Introduction__ci_0.txt",
+    "chunk_id": 3,
+    "section_path": "Introduction",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0058__Introduction__ci_1.txt",
+    "chunk_id": 4,
+    "section_path": "Introduction",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0059__Introduction__ci_2.txt",
+    "chunk_id": 73,
+    "section_path": "Introduction",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0060__Safety_Flight_Guidelines__ci_0.txt",
+    "chunk_id": 7,
+    "section_path": "Safety Flight Guidelines",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0061__Safety_Flight_Guidelines__ci_1.txt",
+    "chunk_id": 8,
+    "section_path": "Safety Flight Guidelines",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0062__Safety_Flight_Guidelines__ci_2.txt",
+    "chunk_id": 79,
+    "section_path": "Safety Flight Guidelines",
+    "level": 1,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0063__Safety_Flight_Guidelines___Firmware_Update__ci_0.txt",
+    "chunk_id": 17,
+    "section_path": "Safety Flight Guidelines > Firmware Update",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0064__Safety_Flight_Guidelines___Firmware_Update__ci_1.txt",
+    "chunk_id": 18,
+    "section_path": "Safety Flight Guidelines > Firmware Update",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 1,
+    "chars": 750
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0065__Safety_Flight_Guidelines___Flight_Condition_Requirements__ci_0.txt",
+    "chunk_id": 9,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements",
+    "level": 2,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0066__Safety_Flight_Guidelines___Flight_Condition_Requirements__ci_1.txt",
+    "chunk_id": 10,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements",
+    "level": 2,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0067__Safety_Flight_Guidelines___Flight_Condition_Requirements__ci_2.txt",
+    "chunk_id": 82,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements",
+    "level": 2,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0068__Safety_Flight_Guidelines___Flight_Condition_Requirements___Flight_Restrictions__ci_0.txt",
+    "chunk_id": 13,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Flight Restrictions",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0069__Safety_Flight_Guidelines___Flight_Condition_Requirements___Flight_Restrictions__ci_1.txt",
+    "chunk_id": 14,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Flight Restrictions",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0070__Safety_Flight_Guidelines___Flight_Condition_Requirements___Flight_Restrictions__ci_2.txt",
+    "chunk_id": 88,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Flight Restrictions",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0071__Safety_Flight_Guidelines___Flight_Condition_Requirements___Operational_Requireme__ci_0.txt",
+    "chunk_id": 11,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Operational Requirements",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0072__Safety_Flight_Guidelines___Flight_Condition_Requirements___Operational_Requireme__ci_1.txt",
+    "chunk_id": 12,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Operational Requirements",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 1,
+    "chars": 485
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0073__Safety_Flight_Guidelines___Flight_Condition_Requirements___Operational_Requireme__ci_2.txt",
+    "chunk_id": 85,
+    "section_path": "Safety Flight Guidelines > Flight Condition Requirements > Operational Requirements",
+    "level": 3,
+    "start_page": 4,
+    "end_page": 4,
+    "chunk_index": 2,
+    "chars": 27
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0074__Safety_Flight_Guidelines___Storage_and_Transportation__ci_0.txt",
+    "chunk_id": 15,
+    "section_path": "Safety Flight Guidelines > Storage and Transportation",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 0,
+    "chars": 2000
+  },
+  {
+    "file": "C:\\APP\\DEV\\backend\\storage\\chunks\\doc_1\\0075__Safety_Flight_Guidelines___Storage_and_Transportation__ci_1.txt",
+    "chunk_id": 16,
+    "section_path": "Safety Flight Guidelines > Storage and Transportation",
+    "level": 2,
+    "start_page": 5,
+    "end_page": 5,
+    "chunk_index": 1,
+    "chars": 750
+  }
+]

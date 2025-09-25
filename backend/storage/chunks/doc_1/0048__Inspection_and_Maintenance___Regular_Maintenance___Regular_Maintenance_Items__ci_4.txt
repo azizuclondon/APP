@@ -1,0 +1,33 @@
+--- chunk_id: 42
+--- section_path: Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items
+--- level: 3
+--- pages: 6-12
+--- chunk_index: 4
+---
+
+© 2022 DJI All Rights Reserved.
+9
+MATRICE 30 SERIES  Maintenance Manual
+Gimbal
+Camera
+1.	 Rotate the gimbal pitch axis to +90° so that
+the camera can be locked.
+2.	 The lenses on the camera are not damaged or
+cracked.
+Infrared
+Sensing
+and Vision
+System
+Lenses,
+Auxiliary
+Lights, and
+Beacons
+1.	 Clean the lenses with a soft cloth.
+2.	 Lenses are not loose and have no cracks.
+3.	 The auxiliary lights and beacons are not loose
+or cracked.
+Infrared Sensing and Vision Systems
+Rear View
+Bottom View
+Auxiliary Lights
+Beacons

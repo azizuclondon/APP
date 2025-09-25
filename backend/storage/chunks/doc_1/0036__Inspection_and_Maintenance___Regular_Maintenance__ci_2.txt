@@ -1,0 +1,45 @@
+--- chunk_id: 33
+--- section_path: Inspection and Maintenance > Regular Maintenance
+--- level: 2
+--- pages: 6-13
+--- chunk_index: 2
+---
+
+6 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Flight Controller
+1.	 After the aircraft is powered on and self-check is complete, there are no error prompts in the app 
+related to the flight controller.
+2.	 In outdoor open environments, the GNSS signal reaches “Strong” level within 1 minute of powering 
+on the aircraft, indicating that the Home Point can be recorded automatically, and the RTK data 
+meets the heading measurement standard.
+3.	 In outdoor open environments, the interference of the compass after calibration is less than 50.
+4.	 Sensor bias is less than 0.05 after the IMU calibration.
+Aircraft Structure
+Type
+Inspection Process
+Illustrations
+Aircraft 
+Appearance
+1.	 The aircraft body is clean and not damaged.
+2.	 Clean the aircraft body with a clean and soft 
+cloth, especially for the lenses of the infrared 
+sensing and vision systems and the heat 
+dissipation vents.
+Screws
+1.	 All the screws on the aircraft body are 
+tightened, especially the screws connecting the 
+motor and the carbon tube.
+Frame Arms
+1.	 The 12 screws on the four frame arms are 
+secure.
+2.	 The screw nuts attached on the shaft screws 
+are secure when rotating the frame arms.
+3.	 The arm junctions are not damaged or 
+cracked.
+4.	 The frame arm folding buttons can pop out 
+smoothly so that the frame arms are unfolded 
+and locked firmly.
+5.	 The frame arm folding buttons can be pressed 
+down smoothly when the arms are folded.

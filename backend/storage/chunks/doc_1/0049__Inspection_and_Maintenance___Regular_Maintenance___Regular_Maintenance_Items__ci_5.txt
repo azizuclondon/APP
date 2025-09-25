@@ -1,0 +1,42 @@
+--- chunk_id: 43
+--- section_path: Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items
+--- level: 3
+--- pages: 6-12
+--- chunk_index: 5
+---
+
+10
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+Battery
+Battery Maintenance Conditions
+Maintenance is required when any of the events below occur.
+1.	 Every 50 cycles.
+2.	 The battery is idle for more than three months.
+3.	 There is a maintenance prompt in the app.
+Checklist for Maintenance
+1.	 Charge and discharge the battery as per instructions.
+2.	 Insert the battery into the aircraft and power on to view the battery information in DJI Pilot 2. Make
+sure the difference in cell voltage is less than 0.1 V and the battery firmware is updated to the
+latest version.
+3.	 Make sure the battery is not swollen, leaking, or damaged.
+4.	 Make sure battery terminals are clean.
+Standard Charge and Discharge Operation Instructions
+Charge to 100%
+Rest for 24 hours
+Discharge to below 20%
+Rest for 1 hour
+1.	 Charge the battery to 100% and let the battery sit for 24 hours.
+2.	 Install the battery into the aircraft and take off. Land the aircraft and remove the battery when the
+remaining power level is 20% or lower.
+3.	 Let the battery sit for one hour.
+4.	 Charge the battery fully or to the proper power level for storage after completing battery maintenance.
+Battery Replacement Standard
+1.	 The battery is visibly swollen, leaking, or damaged.
+2.	 The battery is rated for 400 cycles. It is not recommended to continue use afterward.
+3.	 The battery error still exists after performing the standard charge and discharge operations twice
+continuously.
+Battery Disposal
+1.	 Make sure to remove the protective plastic sheet on the side of the battery before fully immerse the
+battery in an insulated bucket with 5% salt solution. Leave the battery in the solution for more than
+48 hours to fully discharge the battery.

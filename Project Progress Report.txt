@@ -1,0 +1,156 @@
+Project Progress Report
+🎯 Project Goal
+
+Build a web application that provides step-by-step maintenance and user information for products (initially drones, then expand), using:
+
+Vector search (pgvector + embeddings)
+
+Citations from original manuals (page/section)
+
+Admin ingestion pipeline for uploading manuals
+
+User Q&A interface for retrieval-augmented answers
+
+✅ What Has Been Done
+Milestone 1 — Foundation Setup (Completed)
+
+Git Repository & Project Skeleton:
+
+Repo created with frontend/, backend/, db/, docs/ structure.
+
+CI/CD workflow stubbed (linting/tests).
+
+.gitignore, README.md, Docker files present.
+
+Database Setup:
+
+Postgres with pgvector running (via Docker).
+
+Schema created:
+
+products, documents, chunks, feedback, requests.
+
+Hello World App:
+
+FastAPI backend live (/ping → pong).
+
+Frontend stub connected to backend.
+
+Staging deployment working.
+
+Milestone 2 — Ingestion Pipeline MVP (In Progress, Partial Completion)
+
+Admin Upload + Parsing:
+
+PDF parsing with PyMuPDF (fitz) implemented.
+
+TOC + page text extraction working (toc.json, toc_real_pdf12.json in repo).
+
+Parsed chunks saved (chunks_doc1.json).
+
+Provenance data (page/section/source) stored.
+
+Embeddings:
+
+Table chunk_embeddings created with pgvector.
+
+IVFFlat index for cosine similarity in place.
+
+Embedding write/read tested with dummy data.
+
+Admin QC Dashboard:
+
+Partially implemented (preview JSON of chunks).
+
+Files show parsed chunks exist (chunks_doc1.json).
+
+End-to-End Flow:
+
+✅ First product ingested (doc → chunks → embeddings).
+
+Repo State (Backend focus)
+
+Backend:
+
+Virtualenv (.venv) with dependencies installed (FastAPI, Alembic, dotenv, httpx, etc.).
+
+Scripts:
+
+run_schema_fix.py, run_log_test.py → DB validation/testing.
+
+start.sh → launch server.
+
+Alembic migrations present.
+
+Unit test setup (pytest.ini, .pytest_cache).
+
+Frontend:
+
+Present in repo structure, but not detailed in the provided listing (likely minimal so far).
+
+Docs:
+
+Contains project/milestone notes.
+
+⏳ What Is Remaining
+Milestone 2 (To Finish)
+
+Connect embeddings to real OpenAI API / embedder (currently no API integration done yet).
+
+Finish Admin QC dashboard (web interface, not just JSON files).
+
+Verify full ingestion pipeline across multiple products.
+
+Milestone 3 — QA Experience MVP
+
+Frontend:
+
+User UI (product selector + ask box).
+
+Answer view with inline citations and source modal.
+
+Feedback buttons (👍/👎).
+
+Backend:
+
+Retrieval pipeline (BM25 + vector search) fully connected.
+
+LLM answering with inline citations.
+
+Accuracy benchmarks: ≥90% answers, ≥95% citation correctness.
+
+Milestone 4 — Product Requests & Routing
+
+Add product request form + DB entry.
+
+Email confirmation system.
+
+Admin request dashboard.
+
+Milestone 5 — Evaluation & Monitoring
+
+Golden-set evaluation (50 Qs/product).
+
+Monitoring dashboard for latency/accuracy trends.
+
+Error alerts.
+
+Milestone 6 — Beta Launch
+
+UX polish (empty states, 404s, privacy/terms).
+
+SEO basics.
+
+Ingest 10–20 products with QC.
+
+Deploy to production for pilot users.
+
+Milestone 7 — Post-Launch Iteration
+
+Expand to 50+ products.
+
+Structured data extraction (specs, torques).
+
+Improved table/image rendering.
+
+Iterative ingestion/feedback loop.

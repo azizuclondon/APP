@@ -1,0 +1,48 @@
+--- chunk_id: 39
+--- section_path: Inspection and Maintenance > Regular Maintenance > Regular Maintenance Items
+--- level: 3
+--- pages: 6-12
+--- chunk_index: 1
+---
+
+© 2022 DJI All Rights Reserved.
+5
+MATRICE 30 SERIES  Maintenance Manual
+Connection
+between
+Motor and
+Arm
+1.	 Rotate the motor base around the central
+line of carbon tube to check if the motor and
+carbon tube connection is loose.
+2.	 The four fixing screws are secure.
+3.	 If any screw is loose, return to the factory for
+repair.
+Motor Air
+Filters
+1.	 Air filters are not severely misshapen or
+damaged.
+2.	 If they are severely misshapen (such as being
+bumped) or damaged, return to the factory for
+repair.
+Propellers
+1.	 Check the propellers for visible deformation,
+severe wear, nicks, and cracks, and if there
+are any foreign materials.
+2.	 Clean the propellers with a dry soft cloth.
+3.	 Replace the propellers immediately if visible
+deformation, severe wear, nicks, or cracks
+occur. *
+4.	 Replace the propellers after flying over 300
+hours or using for one year. *
+Propeller
+Adapters
+1.	 The propeller adapter screws are secure.
+2.	 If the screws are loose, apply thread locker
+and tighten the screws.
+3.	 The propeller adapters are not misshapen or
+broken.
+4.	 Replace the propeller adapters if they are
+misshapen or damaged.
+*	 It is recommended to replace the propellers only in an emergency situation during operations. After the emergency
+flight is over, please contact DJI Support or an authorized dealer for overhaul as soon as possible.

@@ -1,0 +1,146 @@
+﻿{
+    "document_id":  1,
+    "title":  "PDF12.pdf",
+    "toc":  [
+                {
+                    "level":  1,
+                    "title":  "Introduction",
+                    "page_number":  4
+                },
+                {
+                    "level":  1,
+                    "title":  "Disclaimer",
+                    "page_number":  4
+                },
+                {
+                    "level":  1,
+                    "title":  "Safety Flight Guidelines",
+                    "page_number":  4
+                },
+                {
+                    "level":  2,
+                    "title":  "Flight Condition Requirements",
+                    "page_number":  4
+                },
+                {
+                    "level":  3,
+                    "title":  "Operational Requirements",
+                    "page_number":  4
+                },
+                {
+                    "level":  3,
+                    "title":  "Flight Restrictions",
+                    "page_number":  4
+                },
+                {
+                    "level":  2,
+                    "title":  "Storage and Transportation",
+                    "page_number":  5
+                },
+                {
+                    "level":  2,
+                    "title":  "Firmware Update",
+                    "page_number":  5
+                },
+                {
+                    "level":  1,
+                    "title":  "Inspection and Maintenance",
+                    "page_number":  5
+                },
+                {
+                    "level":  2,
+                    "title":  "Pre-Flight Checklist",
+                    "page_number":  5
+                },
+                {
+                    "level":  2,
+                    "title":  "Regular Maintenance",
+                    "page_number":  6
+                },
+                {
+                    "level":  3,
+                    "title":  "Regular Maintenance Items",
+                    "page_number":  6
+                },
+                {
+                    "level":  4,
+                    "title":  "Propulsion System",
+                    "page_number":  6
+                },
+                {
+                    "level":  4,
+                    "title":  "Flight Controller",
+                    "page_number":  8
+                },
+                {
+                    "level":  4,
+                    "title":  "Aircraft Structure",
+                    "page_number":  8
+                },
+                {
+                    "level":  4,
+                    "title":  "Battery",
+                    "page_number":  12
+                },
+                {
+                    "level":  3,
+                    "title":  "List of Updates and Calibrations",
+                    "page_number":  13
+                },
+                {
+                    "level":  3,
+                    "title":  "List of Wearing Parts",
+                    "page_number":  13
+                },
+                {
+                    "level":  2,
+                    "title":  "Health Management System",
+                    "page_number":  14
+                },
+                {
+                    "level":  2,
+                    "title":  "DJI Maintenance Service",
+                    "page_number":  17
+                },
+                {
+                    "level":  1,
+                    "title":  "After-sales Service",
+                    "page_number":  19
+                },
+                {
+                    "level":  2,
+                    "title":  "Warranty Policy",
+                    "page_number":  19
+                },
+                {
+                    "level":  3,
+                    "title":  "Warranty Period for Aircraft Parts (12 months for the whole machine)",
+                    "page_number":  19
+                },
+                {
+                    "level":  3,
+                    "title":  "Warranty Period for Other Parts",
+                    "page_number":  19
+                },
+                {
+                    "level":  2,
+                    "title":  "Handling Procedures for Flight Accident",
+                    "page_number":  20
+                },
+                {
+                    "level":  3,
+                    "title":  "Flyaway Accident",
+                    "page_number":  20
+                },
+                {
+                    "level":  3,
+                    "title":  "Collision or Crash Accident",
+                    "page_number":  20
+                },
+                {
+                    "level":  2,
+                    "title":  "Shipping the Product for Repair",
+                    "page_number":  20
+                }
+            ]
+}

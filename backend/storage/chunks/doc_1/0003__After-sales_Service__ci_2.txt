@@ -1,0 +1,23 @@
+--- chunk_id: 57
+--- section_path: After-sales Service
+--- level: 1
+--- pages: 19-21
+--- chunk_index: 2
+---
+
+Contact DJI Support to describe the product's issue and service type, such as repair, return or
+replace, and ship the product back according to the guidelines.
+
+Visit the following website to view phone support options for hotline service:
+
+https://www.dji.com/support
+
+Contact
+DJI SUPPORT
+ and MATRICE are trademarks of DJI.
+Copyright © 2022 DJI All Rights Reserved.
+This content is subject to change without notice.
+Download the latest version from
+If you have any questions about this document, please contact DJI by sending a
+message to DocSupport@dji.com.
+https://www.dji.com/matrice-30/downloads

@@ -1,0 +1,31 @@
+--- chunk_id: 53
+--- section_path: Inspection and Maintenance > Health Management System
+--- level: 2
+--- pages: 14-16
+--- chunk_index: 0
+---
+
+12
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+2.	 View the health condition of each module of the connected device.
+Health Management System
+Users can view the status of each module and upload the log with an abnormal status in the Health
+Management System (HMS) page in DJI Pilot 2.
+1.	 Enter the HMS page in DJI Pilot 2.
+
+© 2022 DJI All Rights Reserved.
+13
+MATRICE 30 SERIES  Maintenance Manual
+3.	 If any module is abnormal, tap to view the warning message.
+4.	 Tap the warning message to view the help document for troubleshooting. If the abnormal status
+still exists after check by following the document, users can upload the log, send the QR code or
+the tracking number to DJI Support for help.
+
+14
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+5.	 At the same time, users can tap the log management to select the aircraft, remote controller, and
+battery station* with abnormal flights according to the log deadline to upload logs.
+*	 The battery station USB-C maintenance port must be connected to the remote controller USB-A port by using a
+cable when exporting the battery station log.

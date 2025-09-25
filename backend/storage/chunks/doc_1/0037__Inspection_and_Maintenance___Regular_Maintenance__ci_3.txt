@@ -1,0 +1,69 @@
+--- chunk_id: 34
+--- section_path: Inspection and Maintenance > Regular Maintenance
+--- level: 2
+--- pages: 6-13
+--- chunk_index: 3
+---
+
+© 2022 DJI All Rights Reserved. 
+7
+MATRICE 30 SERIES  Maintenance Manual
+Frame Arm 
+LEDs
+1.	 There is no foreign object or damage on the 
+surface.
+ 
+Battery 
+Compartment
+1.	 The battery ports are clean and dry without 
+any corrosion. Remove any water or dust if 
+present.
+2.	 The screws on the battery release toggles are 
+secure.
+3.	 The battery release toggles spring back 
+normally after being toggled.
+4.	 After the battery is installed, the battery 
+release toggle can spring back normally 
+without obvious shaking.
+Data Ports
+1.	 Clean any unwanted residue near the ports 
+with a gauze.
+2.	 If the ports are in use, disconnect the cables, 
+and then check for any unwanted residue in 
+the ports with the help of a light.
+3.	 Remove any foreign objects such as small 
+pieces of stone or paper in the ports using 
+tweezers.
+4.	 Clean any adhesive materials that are in the 
+port with a gauze.
+5.	 Place the aircraft at an angle and use a gauze 
+or brush to remove any fine materials such 
+as dust from the port. Note clean thoroughly, 
+sweeping away from the port.
+
+8 
+© 2022 DJI All Rights Reserved.
+MATRICE 30 SERIES  Maintenance Manual
+microSD 
+Card 
+Information
+1.	 Check if there are any foreign objects in 
+the microSD card slot and if the microSD is 
+installed correctly.
+2.	 Check if the microSD card is working properly.
+Rubber Port 
+Covers
+1.	 The rubber port covers are not damaged or 
+loose.
+Heat 
+Dissipation 
+Vents
+1.	 The heat dissipation vents are not blocked. 
+The cooling fans work smoothly without noise.
+Gimbal 
+Damping 
+Plate
+1.	 The dampeners are not damaged, loose, or 
+aged.
+2.	 The screws connecting the damping plate and 
+aircraft body are secure.

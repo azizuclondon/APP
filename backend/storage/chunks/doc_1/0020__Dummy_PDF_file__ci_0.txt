@@ -1,0 +1,8 @@
+--- chunk_id: 1
+--- section_path: Dummy PDF file
+--- level: 1
+--- pages: 1-1
+--- chunk_index: 0
+---
+
+Dummy PDF file
